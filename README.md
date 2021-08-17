@@ -1,33 +1,9 @@
-# Website
+# ToiletPaper
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+대똥여지도에 관한 문서를 위한 공간
 
-## Installation
+## 작업
 
-```console
-yarn install
-```
-
-## Local Development
-
-```console
-yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
-
-```console
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+- [render](https://render.com/)를 이용하여 호스팅 중입니다.
+- `main` 브랜치를 기준으로 문서 추가시 새 브랜치 이름은 `document/#번호`로 만들어주세요.
+- `main`에 변경점이 있을 경우 자동 빌드됩니다.

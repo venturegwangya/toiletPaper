@@ -3,20 +3,20 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'ToiletPaper',
+  tagline: 'Toilet Paper Documents',
+  url: 'toiletpaper-psgo.onrender.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'venturegwangya', // Usually your GitHub org/user name.
+  projectName: 'toiletPaper', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'ToiletPaper',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'ToiletPaper Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -24,11 +24,10 @@ module.exports = {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Log',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/venturegwangya/toiletPaper',
           label: 'GitHub',
           position: 'right',
         },
@@ -41,7 +40,7 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Log',
               to: '/docs/intro',
             },
           ],
@@ -50,16 +49,8 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Discussion(WIP)',
+              href: 'https://github.com/venturegwangya/toiletPaper',
             },
           ],
         },
@@ -67,17 +58,13 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/venturegwangya/toiletPaper',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Venturegwangya, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,

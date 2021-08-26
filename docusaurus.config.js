@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'ToiletPaper',
   tagline: 'Toilet Paper Documents',
-  url: 'toiletpaper-psgo.onrender.com',
+  url: 'https://toiletpaper-psgo.onrender.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

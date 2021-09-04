@@ -1,65 +1,65 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'ToiletPaper',
-  tagline: 'Toilet Paper Documents',
-  url: 'https://toiletpaper-psgo.onrender.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'venturegwangya', // Usually your GitHub org/user name.
-  projectName: 'toiletPaper', // Usually your repo name.
+  title: "ToiletPaper",
+  tagline: "Toilet Paper Documents",
+  url: "https://toiletpaper-psgo.onrender.com",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "venturegwangya", // Usually your GitHub org/user name.
+  projectName: "toiletPaper", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'ToiletPaper',
+      title: "ToiletPaper",
       logo: {
-        alt: 'ToiletPaper Logo',
-        src: 'img/logo.svg',
+        alt: "ToiletPaper Logo",
+        src: "img/logo.svg",
       },
       items: [
         {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'Log',
+          type: "doc",
+          docId: "intro",
+          position: "left",
+          label: "Log",
         },
         {
-          href: 'https://github.com/venturegwangya/toiletPaper',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/venturegwangya/toiletPaper",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'Log',
-              to: '/docs/intro',
+              label: "Log",
+              to: "/docs/intro",
             },
           ],
         },
         {
-          title: 'Community',
+          title: "Community",
           items: [
             {
-              label: 'Discussion(WIP)',
-              href: 'https://github.com/venturegwangya/toiletPaper',
+              label: "Discussion(WIP)",
+              href: "https://github.com/venturegwangya/toiletPaper",
             },
           ],
         },
         {
-          title: 'More',
+          title: "More",
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/venturegwangya/toiletPaper',
+              label: "GitHub",
+              href: "https://github.com/venturegwangya/toiletPaper",
             },
           ],
         },
@@ -73,22 +73,22 @@ module.exports = {
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            "https://github.com/facebook/docusaurus/edit/master/website/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
